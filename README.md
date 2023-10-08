@@ -90,15 +90,21 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
 
 ### How To Upload Files To A Website
 
-* Download [Selenium WebDriver Language Binding](https://www.selenium.dev/downloads/) for C# and extract them to appropriate folder. A [.NET Core SDK](https://dotnet.microsoft.com/en-us/download) of 2.1 or greater version.
+* Please follow this basic steps on how to upload file to a website us Lambdatest Selenium Grid [Selenium WebDriver Language Binding](https://www.selenium.dev/downloads/) .
+
+Lets say you want to update a file name *dotnet-install.sh* , like this
 
 ```
-DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.SetCapability(CapabilityType.BrowserName, "Chrome");
-            capabilities.SetCapability(CapabilityType.Version, "96");
-            capabilities.SetCapability(CapabilityType.Platform, "Windows 10");
+capabilities.SetCapability("testName", "Ritam");
+string[] ltFile = new string[] { "dotnet-install.sh" };
+capabilities.SetCapability("lambda:userFiles", ltFile);
 ```
 
+And use this command to upload the file 
+
+```
+driver.Value.FindElement(By.Id("file-upload")).SendKeys("C:\\Users\\ltuser\\Downloads\\dotnet-install.sh");
+```
 
 ### Executing the Test
 
