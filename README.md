@@ -90,7 +90,7 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
 
 ### How To Upload Files To A Website
 
-***Note:**Please Follow this link on how to upload files **[How To Upload Files](https://www.lambdatest.com/support/docs/upload-files-using-lambdatest/)**.
+* Download [Selenium WebDriver Language Binding](https://www.selenium.dev/downloads/) for C# and extract them to appropriate folder. A [.NET Core SDK](https://dotnet.microsoft.com/en-us/download) of 2.1 or greater version.
 
 ```
 DesiredCapabilities capabilities = new DesiredCapabilities();
