@@ -87,6 +87,19 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
 
 **Note:** You can generate capabilities for your test requirements with the help of **[Desired Capabilitiy Generator](https://www.lambdatest.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=CSharp-NUnit-Selenium)**.
 
+
+### How To Upload Files To A Website
+
+**Note:** Please Follow this link on how to upload files **[How To Upload Files](https://www.lambdatest.com/support/docs/upload-files-using-lambdatest/)**.
+
+```
+DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.SetCapability(CapabilityType.BrowserName, "Chrome");
+            capabilities.SetCapability(CapabilityType.Version, "96");
+            capabilities.SetCapability(CapabilityType.Platform, "Windows 10");
+```
+
+
 ### Executing the Test
 
 **Step 5:** Build the solution by clicking on **Build > Build Solution**.
