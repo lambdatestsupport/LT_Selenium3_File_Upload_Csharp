@@ -90,7 +90,7 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
 
 ### How To Upload Files To A Website
 
-* Please follow this basic steps on how to upload file to a website us Lambdatest Selenium Grid [Selenium WebDriver Language Binding](https://www.selenium.dev/downloads/) .
+* Please follow this basic steps on how to upload file to a website us Lambdatest Selenium Grid [Upload Files Using LambdaTest Selenium Grid](https://www.lambdatest.com/support/docs/upload-files-using-lambdatest/) .
 
 Lets say you want to update a file name *dotnet-install.sh* , like this
 
