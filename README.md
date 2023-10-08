@@ -90,7 +90,7 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
 
 ### How To Upload Files To A Website
 
-**Note:** Please Follow this link on how to upload files **[How To Upload Files](https://www.lambdatest.com/support/docs/upload-files-using-lambdatest/)**.
+**Please Follow this link on how to upload files **[How To Upload Files](https://www.lambdatest.com/support/docs/upload-files-using-lambdatest/)**.
 
 ```
 DesiredCapabilities capabilities = new DesiredCapabilities();
